@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML layout example</title>
+    <style>
+        header,footer{background-color: black;color: white; text-align: center;padding:10px}
+        nav{background-color: #555; padding:10px; text-align: center;}
+        nav a{ color: white; margin:0 30px; text-decoration: none;}
+        section {display: flex;}
+    </style>
+</head>
+<body>
+    
+    <div style="display: flex;"></div>
+    <div style="flex: 70%; background: rgb(148, 145, 145); padding: 10px;"> </div>
+
+    <header>
+        <h1>MY WEBSITE</h1>
+    </header>
+    <nav><a href=""> Home</a><a href=""> About</a><a href=""> Service</a><a href="">Contact</a> </nav>
+
+    <section>
+<article>
+    <h2> main article</h2>
+    <p> this is main content of website </p>
+</article>
+<aside>
+    <h3>Side bar</h3>
+    <p> this side bar is for adds and other side stuff</p>
+</aside>
+    </section>
+    <footer>
+        <p>&copy 2025, My website, All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,76 @@
+.navbar {
+  text-align: center;
+  padding: 20px;
+ 
+}
+.navbar a{
+    color: aliceblue;
+    padding: 5px;
+    margin: 5px;
+   text-decoration: none;
+}
+button{
+  background-color: rgb(15, 1, 1);
+  color: white;
+  padding: 5px;
+  margin: 10px;
+ border: none;
+ border-radius: 10px;
+ font-size: large;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ transition-duration: 0.5s;
+ cursor: pointer;
+
+}
+button:hover{
+background-color: white;
+color: black;
+}
+img {
+width: 300px;
+height: 400px;
+border-radius: 10px;
+
+}
+.image-text{
+color: white;
+}
+body {
+  background-image: url(images/ilogin1.jpg);
+  background-size: cover;
+}
+.main-container{
+position: relative;
+
+}
+.image-container{
+    color: white;
+}
+.form{
+    
+    position: relative;
+left: 100px;
+top: 100px;
+align-items: center;
+justify-items: center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+input{
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.centre{
+  
+   display: flex;
+    position: relative;
+    top: 200px;
+    left: 400px;
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    height: 400px;
+    padding: 5px;
+    border-radius: 10px ;
+    border-color: rgb(199, 216, 210);
+}

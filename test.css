@@ -1,0 +1,38 @@
+body{
+
+}
+.main-part{
+  display: flex;
+ 
+  
+
+}
+    
+.second-part {
+  flex: 1; /* Both take equal width by default */
+}
+
+.text-part{
+    margin-top: 50px;
+     margin-left: 50px;
+    margin-right: 100px;
+}
+.bt{
+background-color: black;
+color: white;
+line-height: 40px;
+border-radius: 20px;
+border-style: dashed;
+}
+.bt:hover{
+cursor: pointer;
+background-color: white;
+color: black;
+
+}
+img{
+    
+    width: 700px;
+    height: 780px;
+    border-radius: 10px;
+}
